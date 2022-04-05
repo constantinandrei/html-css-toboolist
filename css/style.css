@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-logo, #text-logo {
+    vertical-align: middle;
+}
+
+#img-logo {
+    margin: 10px 10px 10px 20px;
+}
+
+#text-logo {
+    font-size: 35px;
+    font-weight: bold;
+}

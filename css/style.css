@@ -35,6 +35,7 @@ main {
 #add-task {
     background-color: #48AEF1;
     color: #E3F4FD;
+    border: 2px solid #48AEF1;
 }
 
 #add-section {
@@ -61,4 +62,46 @@ main {
 
 .left-padding {
     padding-left: 70px;
+}
+
+.task-container h3 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.task-container p {
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.check {
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 7px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.green-border {
+    border-color: #A1DBCD;
+    color: #A1DBCD;
+}
+
+.red-border {
+    border-color: #F48E89;
+    color: #F48E89;
+}
+
+.tag {
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 14px;
+    color: white;
+    vertical-align: middle;
+}
+
+.editorial {
+    background-color: #46ACEB;
 }
